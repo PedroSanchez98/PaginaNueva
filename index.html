@@ -2,6 +2,17 @@
     <html>
         <head>
 	       <title>Pagina Principal</title>
+           <link rel="stylesheet"  href="css/estilos.css">
+           <script type="text/javascript" src="Js/jquery.js"></script>
+    <script type="text/javascript" src="Js/cycle.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slideshow').cycle({
+            fx:'turnDown'
+        });
+    });
+    </script>
         </head>
         <body backGround="/EmpresaF/img/fondo9.png">
             <br>
@@ -23,6 +34,11 @@
             </table>
             <br><hr>
             <h3>Edicion de la pagina principal</h3>
+            <div class="slideshow">
+            <img src="img/slideshow/paisaje_1.jpg">
+            <img src="img/slideshow/paisaje_2.jpg">
+            <img src="img/slideshow/paisaje_3.jpg">
+        </div>
             <br><hr>
             <center>
             <footer>
