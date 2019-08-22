@@ -1,12 +1,4 @@
-@import url('reseter.css');
-body{
-	background: #2c3e50; /* Old browsers */
-	font-family: 'Lato', sans-serif;
-}
-a{
-	text-decoration: none;
-	color: #009fff;
-}
+
 .retraso-1{
 	-webkit-animation-delay: 1s;
 	-moz-animation-delay: 1s;
@@ -18,16 +10,7 @@ a{
 	animation-delay: 2s; 
 }
 
-.logo{
-	width: 30%;
-	float: left;
-	padding: 10px 0px;
-}
-.logo a{
-	font-size: 30px;
-	font-family: 'Pacifico', cursive;
-	color: #000;
-}
+
 .menu{
 	width: 39%;
 	float: right;
@@ -37,20 +20,9 @@ a{
 	display: inline;
 }
 
-.menu li a{
-	margin-right: 30px;
-	font-size: 22px;
-	padding: 10px;
-}
-.menu li a:hover{
-	background-color: #009fff;
-	color: #fff;
-	border-radius: 5px;
-}
-
 .cuerpo{
-	width: 90%;
-	height: 100%;
+	width: 70%;
+	height: 90%;
 	background: #ecf0f1; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ecf0f1 0%, #bdc3c7 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ecf0f1), color-stop(100%,#bdc3c7)); /* Chrome,Safari4+ */
@@ -159,11 +131,6 @@ aside li{
 	text-align: left;
 	margin-bottom: 10px;
 }
-aside a:hover{
-	text-decoration: underline;
-}
-
-
 
 .copyraight{
 	margin-top: 150px;
