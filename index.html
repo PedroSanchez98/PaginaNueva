@@ -1,51 +1,49 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-	       <title>Pagina Principal</title>
-            <meta charset="UTF-8">
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina Principal</title>
+    <link rel="stylesheet"  href="css/estilos.css">
+     <link rel="stylesheet"  href="css/menu.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="Js/jquery.js"></script>
+    <script type="text/javascript" src="Js/cycle.js"></script>
 
-            <link rel="stylesheet"  href="css/estilos.css">
-            <link rel="stylesheet" type="text/css" href="css/animate.css">
-            <link rel="stylesheet"  href="css/menu.css">
-            <link rel="stylesheet" type="text/css" href="css/animate.css">
-            
-            <script type="text/javascript" src="Js/jquery.js"></script>
-            <script type="text/javascript" src="Js/cycle.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slideshow').cycle({
+            fx:'turnDown'
+        });
+    });
+    </script>
 
-            <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.slideshow').cycle({
-                        fx:'turnDown'
-                    });
-                });
-            </script>
-        </head>
-        <body backGround="/EmpresaF/img/fondo9.png">
-           <div id="sidebar">  
-                <div class="toggle-btn">   
-                    
-                </div>
-                <ul>
-                    <li>
-                    <font size=6 color= #000000> <div class="logo animated bounceIn">TecnologíasMaster</div></font>
-                        <center><img src="img/LogoKoltin.jpg" style="max-width: 100px;" width="200" height="100" alt="1" class="logo"></center>
-                    </li>   
-                    <li><a class="a" href="/Koltin/Login.jsp"><img src = "/Koltin/img/llave.jpg" style="float:left; margin:-10px;" width="40" >Logins</a><br></li>
-                    <li><a class="a" href="/Koltin/Leer.jsp"><img src = "/Koltin/img/worker.png" style="float:left; margin:-10px;" width="40" >Acompañantes</a><br></li>
-                    
-                    <li><a class="a" href="/Koltin/conctactos.jsp"><img src="/Koltin/img/conctacto.png" style="float:left; margin:-10px" width="40">Contactanos</a><br></li>
-                    <li><a class="a" href="/Koltin/Nosotros.jsp"><img src="/Koltin/img/MV.ico" style="float:left; margin:-10px" width="40">Nosotros</a><br></li>                    
-                </ul>
-            </div>
+</head>
+<body>
+<div class = "container-fluid">
+    <header id = "main-header">
+        <a id = "logo-header" > 
+        <ul class="nev">
+        <h6>ROLS</h6>
+        <li><img class = "imagen" src = "../proyecto/img/m.png" width = " 50px" height = "50px"></li>
+        </ul>       
+        </a> 
+        <nav>
+            <ul class="nav">
+            <li><a href="../proyecto/host.html">Contacto</a>
+            <li><a href="">Menú</a>
+                    <ul>
+                        <li><a href="../proyecto/inicio.html">Inicio</a></li>
+                        <li><a href="../proyecto/acercade.html">Nosotros</a></li>
+                        </li>
+                    </ul>
+                </li>
+        </nav>
+    </header>
+    <br></br>
+<br><br>
+<section class="cuerpo animated fadeInDown retraso-2">
+        
 
-            <center><table ="10%">
-            <tr>
-            <td colspan="2">
-            <br>
-            <header>
-            
-
-            <div class="slideshow">
+        <div class="slideshow">
             <img src="img/slideshow/paisaje_1.jpg">
             <img src="img/slideshow/paisaje_2.jpg">
             <img src="img/slideshow/paisaje_3.jpg">
@@ -62,14 +60,66 @@
                                     <li>Sistema de control de mercancia asi 
                                         como de los gastos de la empresa</li>
                                 </ol>
-                                <p>A su vez tambien se dedica a la venta de productos electronicos como los que son:</p>
-                                <ol>
-                                    <li>Memorias USB</li>
-                                    <li>Discos Duros</li>
-                                    <li>Teclados, Mouse, etc..</li>
-                                </ol>
         </div>
-            </tr></table></center>
-        </body>
-    </head>
+<br><br>
+        <div class="contenido">
+            <article>
+                <h1 class="titulo">Desarrollo de SoftWare</h1><br>
+                <img src="img/articulos/post-1.jpg">
+                <p>En estos articulos se encontrara toda la variedad de SoftWare que se a realizado en TecnologásMaster como:</p>
+                <ul>
+                    <li><a href="#">- Diseño Web</a></li>
+                    <li><a href="#">- Sistema de control para cibers</a></li>
+                    <li><a href="#">- Sistema de control de inventario</a></li>
+                </ul>
+            </article>
+            <article>
+                <h1 class="titulo">Venta de equipo electronico</h1><br>
+
+                <img src="img/articulos/post-2.jpg">
+                <p>En estos articulos se encontrara toda la variedad de de equipo electronico que se vende en TecnologásMaster como:</p>
+                <ul>
+                    <li><a href="#">- Memorias USB</a></li>
+                    <li><a href="#">- Discos Duros</a></li>
+                    <li><a href="#">- Arduinos, Raspberry pi y una gran variedad de sensores y dispositivos de electronica</a></li>
+                </ul>
+            </article>
+
+        </div>
+
+        <aside>
+            <div class="widget">
+                <h1>Articulos Recomendados</h1>
+                <ul>
+                    <li><a href="#">Diseño Web</a></li>
+                    <li><a href="#">Memorias USB</a></li>
+                    <li><a href="#">Discos Duros</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h1>Articulos Recomendados</h1>
+                <a href="#"><img src="img/articulos/post-3.JPG"></a>
+            </div>
+        </aside>
+        
+<div class="copyraight">
+               <footer>
+                <center>
+                    <font size=5 color="black">
+                        <hr>
+                        <br>
+                            <p>Derechos Reservados PITER</p><br>
+                            <p>&nbsp;Ing&nbsp;:&nbsp;Luna&nbsp;Sanchez&nbsp;Pedro&nbsp;</p>  
+                            <left><p>&nbsp;Empresa&nbsp;:&nbsp;Ingenenio&nbsp;Tecnologico&nbsp;</p></left><br>
+                            <right><p><img src = "/EmpresaF/img/logop.png" width = "40px" height = "40px"></p></right>
+                    </font>
+            </center>
+    </footer>
+ </div>   
+    
+
+</section>
+
+
+</body>
 </html>

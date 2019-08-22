@@ -1,81 +1,88 @@
-
-a{
-    text-decoration: none;
-    padding: 8px;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: #0099ff;
-    border-radius: 15px;
-    border: 1px solid #0016b0;
-    font-family: Georgia;
+* {
+    margin: auto;
+    padding: 0;
+}
+         
+body {  
+    font-family: Ubuntu, arial, verdana;
+  background: #F7F7F9;  
 }
 
-.map iframe {
-  width: 200%;
-  height: 600px;
-  margin-bottom: 300px;
-
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
-}
-.a:hover{
-    color: #000000;
-    background-color: #33FF33;
-    font-family: Georgia;
-  }
-
-#sidebar {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  left: 1px;
-  transition: all 1000ms linear;
-  border-width: 1px;
-  border-style: solid;
-  border-color: brown;
-  font-family: Georgia;
-  background: #00ffff;
+#main-header {
+  background: #333;
+  color: white;
+  height: 80px; 
+  width: 100%; 
 }
 
-#sidebar.active {
-  left: 0px;
+.imagen {
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
-#sidebar ul li {
-  color: rgba(10, 10, 10, .9);
-  list-style: none;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgba(10, 10, 10, .3);
+#main-header a {
+  color: white;
+}
+
+#logo-header {
+  float: left;
   text-align: center;
-  font-family: Georgia;
-}
-
-.logo {
-  border-radius: 90%;
-  display: block;
-  margin: 0 auto; 
-}
-
-#sidebar .toggle-btn {
-  position: absolute;
-  left: 230px;
-  top: 20px;
-  cursor: pointer;
-}
-
-#sidebar .toggle-btn span {
-  display: block;
-  width: 40px;
-  text-align: center;
+  padding: 0 0 0 15px;
+  text-decoration: none;
   font-size: 30px;
-  border: 3px solid #000;
+}
+      
+.nev > li{
+  list-style: none;
+  float:center;
 }
 
-nom{
-    font-family: Colonna MT;
+.nav > li {
+  list-style: none;
+  float:right;
+}
+      
+.nav li a {
+  font-size: 25px;
+  background-color:#333;
+  color:#fff;
+  text-decoration:none;
+  padding:25px 70px 26px 35px;
+  display:block;
+}
+      
+.nav li a:hover {
+  background-color: #13476d;
+}
+      
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+      
+.nav li:hover > ul {
+  display:block;
+}
+      
+.nav li ul li {
+  position:relative;
+}
+      
+.nav li ul li ul {
+  right:-140px;
+  top:50px;
 }
 
-con{
-    font-family: Toledo;
+.row {
+height: auto;
+width: 60%;
+clip: rect(auto,30px,auto,30px);
+}
+.col{
+  text-align: justify;
+}
+#lista{
+  text-decoration: none;
+  list-style: none;
 }
