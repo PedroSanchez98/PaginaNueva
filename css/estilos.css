@@ -84,16 +84,16 @@ header{
 }
 
 .slideshow{
-	height: 200px;
-	width: 50%;
+	height: 430px;
+	width: 86%;
 	margin:auto;
 	background-color: #2e2e2e;
 
 }
 .slideshow img{
 	width: 97.5%;
-	height: 200px;
-	margin:5px;
+	height: 400px;
+	margin:15px;
 }
 .bienvenidos{
 	width: 86%;
