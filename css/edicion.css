@@ -1,0 +1,118 @@
+ * {
+    margin: auto;
+    padding: 0;
+}
+
+header, .main, footer{
+	width:90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.main .articulos article{
+	padding: 30px;
+	background: white;
+	margin-bottom: 30px;
+	font-size: 120%;
+}
+
+.main .articulos article img{
+	width: 90%;
+	margin: auto;
+	border-radius: 7%;
+	padding: 40px;
+	display: block;
+}
+
+#main-header {
+	
+	color: #336699;
+	height: 95px;	
+	width: 95%; 
+}
+
+.imagen {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#main-header a {
+	color: red;
+}
+
+#logo-header {
+	float:  right;
+	text-align: center;
+	padding: 0 0 0 15px;
+	text-decoration: none;
+	font-size: 30px;
+}
+			
+.nev > li{
+	list-style: none;
+	float: left;
+}
+
+.nav > li {
+	list-style: none;
+        float: left;
+}
+			
+.nav li a {
+	font-size: 30px;
+	text-decoration:none;
+	padding:20px 10px 10px 20px;
+	display:block;
+	border-width: 2px;
+        border-style: solid;
+        border-color:  #ffffff;
+        font-family: Snowdrift;
+}
+			
+.nav li a:hover {
+	background-color: #66cccc;
+        font-family: Snowdrift;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+        font-family: Snowdrift;
+}
+			
+.nav li:hover > ul {
+	display:block;
+        font-family: Snowdrift;
+}
+			
+.nav li ul li {
+	position:relative;
+        font-family: Snowdrift;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:50px;
+        font-family: Snowdrift;
+}
+
+.row {
+height: auto;
+width: 60%;
+clip: rect(auto,30px,auto,30px);
+}
+.col{
+	text-align: justify;
+}
+#lista{
+	text-decoration: none;
+	list-style: none;
+}
+
+footer{	
+	color: red;
+	clear: both;
+	text-align: center;
+	padding: 2px 0;
+}
