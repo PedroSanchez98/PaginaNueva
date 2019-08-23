@@ -21,7 +21,7 @@
 }
 
 .cuerpo{
-	width: 70%;
+	width: 85%;
 	height: 90%;
 	background: #ecf0f1; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ecf0f1 0%, #bdc3c7 100%); /* FF3.6+ */
@@ -39,7 +39,7 @@
 
 .slideshow{
 	height: 230px;
-	width: 80%;
+	width: 85%;
 	margin:auto;
 	background-color: #2e2e2e;
 
